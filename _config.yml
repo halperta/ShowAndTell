@@ -77,21 +77,21 @@ plugins:
   - jekyll-remote-theme
 
 collections:
-  # exhibition:
+  queer:
+    output: true
+    permalink: /:collection/:path/
+  # iconography:
   #   output: true
-  #   permalink: /:collection/:path/
-  iconography:
-    output: true
-    permalink: exhibition/:collection/:path/
-  objectivity:
-    output: true
-    permalink: exhibition/:collection/:path/
-  imaging:
-    output: true
-    permalink: exhibition/:collection/:path/
-  controlling:
-    output: true
-    permalink: exhibition/:collection/:path/
+  #   permalink: exhibition/:collection/:path/
+  # objectivity:
+  #   output: true
+  #   permalink: exhibition/:collection/:path/
+  # imaging:
+  #   output: true
+  #   permalink: exhibition/:collection/:path/
+  # controlling:
+  #   output: true
+  #   permalink: exhibition/:collection/:path/
 
 # Front Matter Defaults
 defaults:
@@ -145,7 +145,7 @@ author:
 # Footer Links
 footer_links:
   - title: Twitter
-    url: https://twitter.com/hashtag/JCBBookHistory?src=hash
+    url: https://twitter.com/hralperta
     icon: fab fa-twitter-square
   - title: Instagram
     url: https://www.instagram.com/johncarterbrownlibrary/
